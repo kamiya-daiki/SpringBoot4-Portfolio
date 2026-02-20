@@ -1,35 +1,47 @@
 <mxfile host="65bd71144e">
     <diagram id="zjsYkNhzPTLOdo8NmBle" name="ページ1">
-        <mxGraphModel dx="758" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="609" dy="1702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" value="メイン画面" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="6" value="タスクメイン画面" style="swimlane;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FFFFFF);" parent="1" vertex="1">
                     <mxGeometry x="470" y="-100" width="740" height="470" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="&lt;font style=&quot;font-size: 12px; line-height: 100%;&quot;&gt;管理者画面へ&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="620" y="40" width="100" height="40" as="geometry"/>
+                    <mxGeometry x="15" y="350" width="105" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="&lt;font style=&quot;font-size: 12px; line-height: 100%;&quot;&gt;ログアウト&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="610" y="420" width="110" height="40" as="geometry"/>
+                    <mxGeometry x="15" y="410" width="105" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="&lt;font style=&quot;font-size: 12px; line-height: 100%;&quot;&gt;タスク更新&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="310" y="40" width="100" height="40" as="geometry"/>
+                    <mxGeometry x="440" y="40" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;タスク検索&lt;/span&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="20" y="40" width="100" height="40" as="geometry"/>
+                    <mxGeometry x="200" y="40" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="&lt;font style=&quot;font-size: 12px; line-height: 100%;&quot;&gt;出力&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="140" y="40" width="100" height="40" as="geometry"/>
+                    <mxGeometry x="630" y="40" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="&lt;font style=&quot;font-size: 12px; line-height: 100%;&quot;&gt;タスク登録&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="420" y="40" width="100" height="40" as="geometry"/>
+                    <mxGeometry x="320" y="40" width="100" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="&lt;font style=&quot;font-size: 12px; line-height: 100%;&quot;&gt;ユーザー設定&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeColor=default;" parent="6" vertex="1">
-                    <mxGeometry x="490" y="420" width="110" height="40" as="geometry"/>
+                    <mxGeometry x="15" y="290" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="470" as="sourcePoint"/>
+                        <mxPoint x="140" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="ここは&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;ユーザーメイン画面&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;（左ドロワー）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=light-dark(#000000,#FFFFFF);" vertex="1" parent="6">
+                    <mxGeometry x="7.5" y="30" width="122.5" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="&lt;div&gt;　レイアウトは横のDataGridみたいな感じ？&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;チェックボックス&lt;/li&gt;&lt;li&gt;画面遷移図作成&lt;br&gt;開始：2026 / 2/ 17&amp;nbsp; 14:00&lt;br&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;終了：2026 / 2/ 17&amp;nbsp; 15:00&lt;br&gt;詳細：&lt;br&gt;　メイン画面とユーザー設定画面の詳細を記載&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;帰宅&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;開始：2026 / 2/ 17&amp;nbsp; 15:00&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;終了：2026 / 2/ 17&amp;nbsp; 16:00&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;詳細：&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=default;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="30" width="680" height="270" as="geometry"/>
+                    <mxGeometry x="630" width="560" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="110" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
