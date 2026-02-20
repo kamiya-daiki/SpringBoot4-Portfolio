@@ -1,6 +1,7 @@
 CREATE TABLE tasks (
     task_id             BIGSERIAL PRIMARY KEY,
-    task_history_id     BIGSERIAL,
+    -- タスク履歴(タスク変更時に変更履歴用に変更前を保存)
+    history_id          BIGSERIAL PRIMARY KEY,
     user_id             BIGINT REFERENCES users(user_id),
     start_datetime      timestamp DEFAULT CURRENT_TIMESTAMP,
     end_datetime        timestamp DEFAULT CURRENT_TIMESTAMP,
