@@ -1,12 +1,16 @@
+------------------------------
+-- タスクテーブル
+------------------------------
 CREATE TABLE tasks (
-    task_id             BIGSERIAL PRIMARY KEY,
-    -- タスク履歴(タスク変更時に変更履歴用に変更前を保存)
-    history_id          BIGSERIAL PRIMARY KEY,
     user_id             BIGINT REFERENCES users(user_id),
-    start_datetime      timestamp DEFAULT CURRENT_TIMESTAMP,
-    end_datetime        timestamp DEFAULT CURRENT_TIMESTAMP,
+    -- タスクID(連番)
+    task_id             BIGSERIAL PRIMARY KEY,
+    -- タスク履歴(タスク変更時に変更履歴用に連番を保存)
+    task_id_history     BIGSERIAL PRIMARY KEY,
     summary             TEXT NOT NULL,
     details             TEXT
+    start_datetime      timestamp DEFAULT CURRENT_TIMESTAMP,
+    end_datetime        timestamp DEFAULT CURRENT_TIMESTAMP,
 );
 
 INSERT INTO tasks (user_id, start_datetime, end_datetime, details)
