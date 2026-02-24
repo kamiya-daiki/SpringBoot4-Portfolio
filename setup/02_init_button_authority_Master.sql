@@ -9,7 +9,7 @@ CREATE TABLE button_authority_Master (
     -- ボタンアクションフォーム
     button_action           VARCHAR(50) NOT NULL,
     -- 権限
-    authority     integer NOT NULL DEFAULT 0 REFERENCES authority_Master(authority_id),
+    authority               Integer NOT NULL DEFAULT 0 REFERENCES authority_Master(authority_id)
 );
 
 INSERT INTO button_authority_Master (button_authority, button_label_jp, button_action, authority)
