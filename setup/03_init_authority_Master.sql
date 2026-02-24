@@ -2,7 +2,9 @@
 -- 権限マスタテーブル
 ------------------------------
 CREATE TABLE authority_Master (
+    -- 権限ID
     authority_id             INTEGER PRIMARY KEY,
+    -- 権限名
     authority_name           VARCHAR(50) NOT NULL UNIQUE
 );
 

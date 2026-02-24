@@ -2,7 +2,9 @@
 -- 画面モードマスタテーブル
 ------------------------------
 CREATE TABLE screen_mode_Master (
+    -- 画面モードID
     screen_mode_id             INTEGER PRIMARY KEY,
+    -- 画面モード名
     screen_mode_name           VARCHAR(50) NOT NULL UNIQUE
 );
 

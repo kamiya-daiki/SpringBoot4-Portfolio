@@ -2,14 +2,16 @@
 -- ユーザーテーブル
 ------------------------------
 CREATE TABLE users (
+
     -- ユーザーID(連番)
     user_id     BIGSERIAL PRIMARY KEY,
     -- メールアドレス(一意)
     email       VARCHAR(50) NOT NULL,
-    -- パスワード(BCrypt でハッシュ化済)
-    password    VARCHAR(100) NOT NULL,
     -- 履歴ID(タスク変更時に変更履歴用に連番を保存)
     user_id_history          BIGSERIAL PRIMARY KEY,
+    
+    -- パスワード(BCrypt でハッシュ化済)
+    password    VARCHAR(100) NOT NULL,
     -- ユーザー作成日時
     create_datetime                 timestamp DEFAULT CURRENT_TIMESTAMP,
     -- 最終パスワード更新日時
