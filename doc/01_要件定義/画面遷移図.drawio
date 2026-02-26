@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="kqgqzg4xEYzBDlYvvKkc" name="ページ1">
-        <mxGraphModel dx="1169" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+        <mxGraphModel dx="518" dy="1622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -30,8 +30,8 @@
                 <mxCell id="18" value="タスク検索フォーム&lt;br&gt;タスク検索【ボタン】" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4" vertex="1">
                     <mxGeometry x="14" y="270" width="140" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="タスク一覧&#xa;チェック【チェックボックス】&#xa;概要&#x9;&#x9;【テキスト】&#xa;開始日時&#x9;【テキスト】&#xa;終了日時&#x9;【テキスト】&#xa;詳細&#x9;&#x9;【テキスト】" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4" vertex="1">
-                    <mxGeometry x="14" y="100" width="190" height="100" as="geometry"/>
+                <mxCell id="33" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;タスク一覧&lt;br&gt;チェック【チェックボックス】&lt;br&gt;概要&#x9;&#x9;【テキスト】&lt;br&gt;開始日時&#x9;【テキスト】&lt;br&gt;終了日時&#x9;【テキスト】&lt;br&gt;詳細&#x9;&#x9;【テキスト】&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ページ遷移【ボタン】&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4" vertex="1">
+                    <mxGeometry x="14" y="80" width="190" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="タスク出力フォーム&#xa;出力【ボタン】" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=light-dark(#000000,#FFFFFF);" parent="4" vertex="1">
                     <mxGeometry x="9" y="420" width="130" height="40" as="geometry"/>
